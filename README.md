@@ -1,16 +1,66 @@
-# jamuin
+# Jamuin
 
-A new Flutter project.
+**Jamuin** adalah aplikasi mobile sederhana berbasis Flutter yang membahas tentang jamu tradisional Indonesia. Aplikasi ini dibuat sebagai project pembelajaran untuk mengenalkan berbagai jenis jamu, bahan-bahan yang digunakan, serta cara pembuatannya.
 
-## Getting Started
+Aplikasi ini masih berupa project sederhana dan beberapa fiturnya masih dalam tahap simulasi.
 
-This project is a starting point for a Flutter application.
+## 📱 Tentang Jamuin
 
-A few resources to get you started if this is your first Flutter project:
+Jamuin berisi informasi mengenai beberapa jenis jamu dan bahan yang digunakan untuk membuatnya. Pengguna dapat melihat informasi jamu, mengetahui bahan-bahannya, serta melihat cara atau proses pembuatannya.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Selain informasi tentang jamu, terdapat juga fitur **simulasi AI** sederhana yang digunakan sebagai bagian dari project. Fitur tersebut masih dalam bentuk sederhana dan belum seperti layanan AI yang kompleks.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Fitur
+
+Beberapa fitur yang terdapat dalam aplikasi Jamuin:
+
+* **Informasi Jamu** — melihat beberapa jenis jamu yang tersedia.
+* **Detail Jamu** — melihat informasi lebih lanjut mengenai jamu yang dipilih.
+* **Bahan Jamu** — mengetahui bahan-bahan yang digunakan dalam pembuatan jamu.
+* **Cara Pembuatan** — melihat langkah-langkah sederhana dalam membuat jamu.
+* **Edukasi** — berisi informasi tambahan seputar jamu.
+* **Favorit** — menyimpan jamu yang ingin dilihat kembali.
+* **Simulasi AI** — fitur AI sederhana sebagai bagian dari simulasi aplikasi.
+
+## 🛠️ Teknologi
+
+* Flutter
+* Dart
+* Android Studio / Visual Studio Code
+* Git & GitHub
+
+## 🚀 Menjalankan Project
+
+Clone repository:
+
+```bash
+git clone https://github.com/bayuSetiawan123/jamuin.git
+```
+
+Masuk ke folder project:
+
+```bash
+cd jamuin
+```
+
+Install dependency:
+
+```bash
+flutter pub get
+```
+
+Jalankan aplikasi:
+
+```bash
+flutter run
+```
+
+## 🎓 Tujuan Project
+
+Jamuin dibuat sebagai project pembelajaran untuk menerapkan pembuatan aplikasi mobile menggunakan Flutter sekaligus membuat media sederhana untuk mengenal informasi mengenai jamu tradisional Indonesia.
+
+## 👨‍💻 Developer
+
+**Bayu Setiawan**
+
+GitHub: https://github.com/bayuSetiawan123
