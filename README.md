@@ -1,33 +1,58 @@
-# Jamuin
+# 🌿 JamuIn
 
-**Jamuin** adalah aplikasi mobile sederhana berbasis Flutter yang membahas tentang jamu tradisional Indonesia. Aplikasi ini dibuat sebagai project pembelajaran untuk mengenalkan berbagai jenis jamu, bahan-bahan yang digunakan, serta cara pembuatannya.
+**JamuIn** adalah aplikasi mobile berbasis Flutter yang menyediakan informasi mengenai jamu tradisional Indonesia. Aplikasi ini dikembangkan sebagai proyek pembelajaran untuk mengenalkan berbagai jenis jamu, bahan-bahan yang digunakan, manfaat, serta cara pembuatannya.
 
-Aplikasi ini masih berupa project sederhana dan beberapa fiturnya masih dalam tahap simulasi.
+Selain menyediakan informasi mengenai jamu, JamuIn juga memiliki fitur chatbot berbasis AI yang memungkinkan pengguna berinteraksi dan mengajukan pertanyaan seputar jamu tradisional.
 
-## 📱 Tentang Jamuin
+Project ini masih dalam tahap pengembangan dan beberapa fitur, termasuk chatbot AI, masih terus disempurnakan.
 
-Jamuin berisi informasi mengenai beberapa jenis jamu dan bahan yang digunakan untuk membuatnya. Pengguna dapat melihat informasi jamu, mengetahui bahan-bahannya, serta melihat cara atau proses pembuatannya.
+## 📱 Tentang JamuIn
 
-Selain informasi tentang jamu, terdapat juga fitur **simulasi AI** sederhana yang digunakan sebagai bagian dari project. Fitur tersebut masih dalam bentuk sederhana dan belum seperti layanan AI yang kompleks.
+JamuIn menyediakan informasi mengenai berbagai jenis jamu tradisional Indonesia. Pengguna dapat melihat detail jamu, mengenali bahan-bahan yang digunakan, serta mempelajari proses pembuatannya.
+
+Aplikasi ini juga dilengkapi chatbot AI yang dirancang untuk membantu pengguna mendapatkan informasi seputar jamu melalui percakapan. Chatbot terhubung dengan backend untuk memproses pesan dan menghasilkan respons berdasarkan pertanyaan pengguna.
 
 ## ✨ Fitur
 
-Beberapa fitur yang terdapat dalam aplikasi Jamuin:
+Beberapa fitur yang tersedia dalam aplikasi JamuIn:
 
-* **Informasi Jamu** — melihat beberapa jenis jamu yang tersedia.
-* **Detail Jamu** — melihat informasi lebih lanjut mengenai jamu yang dipilih.
-* **Bahan Jamu** — mengetahui bahan-bahan yang digunakan dalam pembuatan jamu.
-* **Cara Pembuatan** — melihat langkah-langkah sederhana dalam membuat jamu.
-* **Edukasi** — berisi informasi tambahan seputar jamu.
-* **Favorit** — menyimpan jamu yang ingin dilihat kembali.
-* **Simulasi AI** — fitur AI sederhana sebagai bagian dari simulasi aplikasi.
+- **Informasi Jamu** — menampilkan berbagai jenis jamu tradisional Indonesia.
+- **Detail Jamu** — menampilkan informasi lebih lanjut mengenai jamu yang dipilih.
+- **Bahan Jamu** — menyediakan informasi bahan-bahan yang digunakan dalam pembuatan jamu.
+- **Cara Pembuatan** — menampilkan langkah-langkah pembuatan jamu.
+- **Edukasi** — menyediakan informasi tambahan seputar jamu tradisional.
+- **Favorit** — menyimpan informasi jamu yang ingin dilihat kembali.
+- **AI Chatbot** — fitur percakapan yang memungkinkan pengguna bertanya dan mendapatkan respons seputar jamu tradisional.
+
+## 🤖 AI Chatbot
+
+Fitur chatbot AI dikembangkan untuk memberikan pengalaman interaksi yang lebih menarik bagi pengguna dalam mencari informasi mengenai jamu.
+
+Beberapa kemampuan yang diterapkan:
+- Menerima pertanyaan dari pengguna melalui antarmuka chat.
+- Mengirim pesan ke backend untuk diproses.
+- Menampilkan respons chatbot kepada pengguna.
+- Difokuskan pada percakapan dan informasi seputar jamu tradisional.
+
+Fitur ini masih dalam tahap pengembangan sehingga relevansi dan konsistensi respons masih terus ditingkatkan.
 
 ## 🛠️ Teknologi
 
-* Flutter
-* Dart
-* Android Studio / Visual Studio Code
-* Git & GitHub
+**Mobile Development**
+- Flutter
+- Dart
+
+**Backend & AI Integration**
+- Python
+- FastAPI
+
+**Local Data Storage**
+- SharedPreferences
+
+**Development Tools**
+- Visual Studio Code
+- Android Studio
+- Git & GitHub
 
 ## 🚀 Menjalankan Project
 
@@ -43,7 +68,7 @@ Masuk ke folder project:
 cd jamuin
 ```
 
-Install dependency:
+Install dependency Flutter:
 
 ```bash
 flutter pub get
@@ -55,12 +80,14 @@ Jalankan aplikasi:
 flutter run
 ```
 
+**Catatan:** Untuk menggunakan fitur AI Chatbot, backend FastAPI perlu dijalankan dan dikonfigurasi sesuai pengaturan aplikasi. Pastikan alamat API dapat diakses oleh perangkat yang menjalankan aplikasi.
+
 ## 🎓 Tujuan Project
 
-Jamuin dibuat sebagai project pembelajaran untuk menerapkan pembuatan aplikasi mobile menggunakan Flutter sekaligus membuat media sederhana untuk mengenal informasi mengenai jamu tradisional Indonesia.
+JamuIn dikembangkan sebagai proyek pembelajaran untuk menerapkan pengembangan aplikasi mobile menggunakan Flutter, mengelola informasi secara lokal, serta mempelajari integrasi antara aplikasi mobile dan layanan backend berbasis AI.
 
 ## 👨‍💻 Developer
 
 **Bayu Setiawan**
 
-GitHub: https://github.com/bayuSetiawan123
+- GitHub: [bayuSetiawan123](https://github.com/bayuSetiawan123)
